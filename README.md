@@ -52,7 +52,7 @@ myenv\scripts\activate.bat
  To setup CI\CD Pipeline in heroku we need 3 information:
 
  1. HEROKU_EMAIL = poojaapaandey9@gmail.com
- 2. HEROKU_API_KEY = <RKU-0197c56d-3222-4875-8417-83f9da674fb3>
+ 2. HEROKU_API_KEY = <>
  3. HEROKU_APP_NAME = backorder-prediction-app
 
 
