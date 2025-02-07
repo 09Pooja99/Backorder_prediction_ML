@@ -20,6 +20,12 @@ jobs:
         run: |
           curl https://cli-assets.heroku.com/install.sh | sh
 
+      # Set Heroku stack to container
+      - name: Set Heroku Stack
+        run: |
+          heroku stack:set container --app ${{ secrets.HEROKU_APP_NAME }}
+
+
 
 ### ⬇ IMPORTANT PART ⬇ ###
 
